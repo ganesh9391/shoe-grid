@@ -1,0 +1,125 @@
+*{margin: 0;
+    padding: 0;
+    
+}
+.product{
+    font-size: large;
+    background-color: rgb(33, 226, 226);
+    color: rgb(15, 11, 221);
+    text-align: center;
+    
+}
+.yy{
+    grid-column: 1/4;
+}
+
+
+
+
+
+
+.tee{
+    border: 2px solid rgb(8, 8, 8);
+    width: 800px;
+    
+}
+    
+.pic{
+    border: 2px solid rgb(22, 22, 22);
+    
+}
+.fit{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.tit{
+    margin-top: 5px;
+}
+
+
+.ht{
+    display: grid;
+    grid-template-columns: 250px 1fr 1fr;
+    grid-template-rows: 1fr 250px 1fr;
+    column-gap: 20px;
+}
+.kit{
+     margin: 4px;
+     transition: 400ms;
+    }
+.card{
+    background-color: rgb(207, 70, 173);
+    color: rgb(218, 21, 54);
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    
+}
+.lit{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.ll{
+    grid-column: 1/4;
+}
+.card:hover{
+    background-color: rgb(43, 19, 179);
+color: rgb(29, 231, 22);
+
+}
+.ull{
+    color: rgb(211, 16, 195);
+}
+
+    
+    
+
+.book{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+a{
+    text-decoration: none;
+    
+}
+.tit{
+    display: block;
+    
+
+}.color{
+    background-color: black;
+   display : inline-block;
+    width: 20px;
+    height: 20px;
+border: 1px solid black;
+
+}
+.color-red{
+    background-color: red;
+   
+    width: 20px;
+    height: 20px;
+}
+.color-blue{
+    background-color: blue;
+    
+    width: 20px;
+    height: 20px;
+}
+.color-pink{
+    background-color: pink;
+    
+    width: 20px;
+    height: 20px;
+}
+.color-yellow{
+    background-color: rgb(159, 194, 32);
+    
+    width: 20px;
+    height: 20px;
+}
+
